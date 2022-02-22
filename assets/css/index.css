@@ -1,0 +1,275 @@
+*{
+ margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+  
+}
+div{
+    display: block;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.banner{
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    animation-name: aaa;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;            
+}
+
+@keyframes aaa{
+    0% {background-image: url(../img/home.jpg);}
+    50%{background-image: url(../img/sg10-1124.jpg);}
+    100%{background-image: url(../img/vinhome.jpg);}
+}
+.nav-wrap{     
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    right: 12px;
+    left: 12px;
+}
+
+.nav-wrap .logo{
+    margin-left: 140px;
+
+}
+
+
+
+.contact{
+    display: flex;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 100px;
+    
+}
+
+.contact .sdt{
+    font-weight: bold;
+    
+}
+
+.hotline{
+    width: 188px;
+    height: 41px;
+    background-color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    
+}
+
+.country{
+    
+    background-color: #fff;
+    margin: 0 5px;
+    margin: 0 10px;
+    width: 46px;
+    height: 41px;
+}
+
+.lead-form{
+    /* text-align: center; */
+    margin-left: 150px;
+    background-color: rgba(255,255,255,0.7);;
+    width: 370px;
+    height: 350px;
+    position: absolute;
+    margin-top: 300px;
+    padding-top: 10px;
+    font-family: var(--bs-body-font-family);;
+
+}
+
+.lead-form-head{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-family: Montserrat;
+}
+
+.lead-form .text{
+    display: inline-block;
+    margin: 10px 0;
+    
+    
+
+}
+
+.lead-form .registry{
+  
+    margin: 20px 0 0 30px;
+    
+
+}
+input[type = text]{
+    margin: 10px 0;
+    display: block;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #acacac;
+    width: 95%;
+    padding: 10px 0;
+    font-size: 20px;
+   
+}
+
+.lead-form .btn{
+    background-color: #292937;
+    color: white;
+    margin-top: 32px;
+    padding: 0 30px;
+    line-height: 40px;
+    margin-left: 70px;
+ 
+}
+
+.lead-form .btn:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+
+.banner .slogant{
+    padding: 20px 30px 20px 100px;
+    background-color: #000;
+    color: #fff;
+    bottom: 30px;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, #000 100%);     
+}
+
+.slogant .slogant-head{
+    
+    font-size: 26px;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 0 15px 0;
+    letter-spacing: 3px;
+
+}
+
+.slogant .slogant-second{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: Cormorant;
+    letter-spacing: 3px;
+}
+
+/* block1 */
+.block1{
+    background-color: #000;
+    
+    padding: 50px 0;
+    
+    
+    
+}
+
+.block1 .container{
+    
+    background-color: #000;    
+    max-width:960px;  
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+
+.block1-img{
+   max-width: 100%;
+   display: flex;
+   justify-content: space-between;
+   right: 0;
+   left: 0;
+}
+
+.block1 .first{
+    width: 335px;
+    height: 596px;
+   
+    
+    
+}
+
+.block1 .mid{
+    width: 249px;
+    height: 596px;
+    
+}
+
+.block1 .last{
+    width: 351px;
+    height: 596px;
+    
+}
+/* block2 */
+.block2{
+   margin-top: 30px;
+  height: 788px;
+   background-image: url(/assets/img/block2.jpg);
+  display: flex;
+  background-size: cover;
+   color: #fff;
+   
+   
+
+    
+}
+
+.block2 .container{
+    max-width: 960px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+   
+    
+}
+
+.block2 .text h3{
+   margin: 100px 0;
+   font-size: 70px;
+   font-weight: normal;
+   font-style: italic;
+   line-height: 1.4;
+   letter-spacing: 3px;
+   font-family: Cormorant;
+    
+    
+}
+
+.button .registry-btn{
+    font-weight: bold;
+    color: #000;
+    display: inline;
+    background-color: #fff;
+    text-decoration:none;
+    padding:10px 50px;  
+}
+
+.block2 .button:hover{
+     transform: scale(1.2);
+     
+}
+
+.block2 .button{
+    margin-top: 300px;
+    opacity: 0.6;
+}
+    
+    
+    
+
+
