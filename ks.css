@@ -1,0 +1,68 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+    
+    .bg-light{
+        background: black !important;
+      }
+
+
+.Viet{
+    position: absolute;
+    right:30px;
+}
+
+.Eng{
+    position: absolute;
+    right:120px;
+}
+.maze{
+    font-size: 30px;
+    padding: 0 5px;
+}
+.nav-link, .navbar-brand{
+    color: aliceblue;
+    
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color: beige;
+}
+
+.fa-solid{
+    color: aliceblue;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    color: darkorange;
+    
+}
+h4{
+    text-align: center;
+}
+
+.logo-footer{
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+}
+
+.footer-left{
+    font-size: 35px;
+    color: coral;
+}
+
+.text{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+
