@@ -21,14 +21,14 @@ body{
     height: 100vh;
     position: relative;
     animation-name: aaa;
-    animation-duration: 7s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;            
 }
 
 @keyframes aaa{
-    0% {background-image: url(../img/home.jpg);}
-    50%{background-image: url(../img/sg10-1124.jpg);}
-    100%{background-image: url(../img/vinhome.jpg);}
+    0% {background-image: url(../img/maze1.png);}
+    50%{background-image: url(../img/maze2.png);}
+    100%{background-image: url(../img/maze3.jpg);}
 }
 .nav-wrap{     
     position: absolute;
@@ -267,6 +267,55 @@ input[type = text]{
 .block2 .button{
     margin-top: 300px;
     opacity: 0.6;
+}
+
+.maze-logo{
+    height: 130px;
+    width: 130px;
+}
+
+.logo-footer{
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+}
+
+.footer-left{
+    font-size: 35px;
+    color: coral;
+}
+
+.text{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.footer>h1{
+    padding: 10px;
+    text-align: center;
+    color: darkorange;
+    
+}
+.col-sm-9>h4{
+    text-align: center;
+    color: aliceblue;
+}
+
+.footer{
+    background-color: #292937;
+}
+
+.logo>a{
+    text-decoration: none;
+    color: #292937;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo>a:hover{
+    font-size: 50px;
+    color: aliceblue;
 }
     
     
